@@ -1,0 +1,95 @@
+company_name,owner_name,city,province,website,email,phone,employees,services,notes,contacted,replied,demo_booked,status
+"ABC Heating & Cooling","John Smith","Toronto","ON","https://abcheating.ca","john@abcheating.ca","(416) 555-0101","5","HVAC, Furnace, AC","Residential focus","","","",""
+"Arctic Air Systems","Maria Santos","Mississauga","ON","https://arcticair.ca","maria@arcticair.ca","(905) 555-0102","8","HVAC, Commercial, Refrigeration","Commercial clients","","","",""
+"Brampton Climate Control","David Chen","Brampton","ON","https://bramptonclimate.ca","david@bramptonclimate.ca","(905) 555-0103","3","Furnace, AC, Heat Pump","Family owned","","","",""
+"Cool Breeze HVAC","Sarah Johnson","Vaughan","ON","https://coolbreezehvac.ca","sarah@coolbreezehvac.ca","(289) 555-0104","6","AC, Ductless, Maintenance","New company 2023","","","",""
+"Direct Energy Home Services","Corporate","Toronto","ON","https://directenergy.ca","service@directenergy.ca","1-888-555-0105","500+","HVAC, Plumbing, Electrical","Large corporation","","","",""
+"EcoTemp Solutions","Ahmed Hassan","Markham","ON","https://ecotemp.ca","ahmed@ecotemp.ca","(905) 555-0106","4","Heat Pumps, Geothermal","Green energy focus","","","",""
+"Five Star Heating","Robert Kim","Richmond Hill","ON","https://fivestarheating.ca","robert@fivestarheating.ca","(905) 555-0107","7","Furnace, Boiler, Radiant","High-end installs","","","",""
+"GTA Climate Experts","Lisa Wong","Toronto","ON","https://gtaclimate.ca","lisa@gtaclimate.ca","(416) 555-0108","12","Commercial HVAC, BMS","BAS systems","","","",""
+"Home Comfort Heating","James Wilson","Oakville","ON","https://homecomfort.ca","james@homecomfort.ca","(905) 555-0109","5","Residential HVAC","Referral based","","","",""
+"Indoor Air Quality Pros","Patricia Brown","Burlington","ON","https://indoorairquality.ca","patricia@indoorairquality.ca","(905) 555-0110","4","Duct Cleaning, IAQ, HVAC","Niche: air quality","","","",""
+"JK Mechanical","Kevin Lee","Toronto","ON","https://jkmechanical.ca","kevin@jkmechanical.ca","(416) 555-0111","10","HVAC, Plumbing, Gas","Union shop","","","",""
+"Klimatech Services","Ana Silva","Mississauga","ON","https://klimatech.ca","ana@klimatech.ca","(905) 555-0112","6","Commercial Refrigeration","Restaurant clients","","","",""
+"Maple Leaf HVAC","Thomas Anderson","Brampton","ON","https://mapleleafhvac.ca","thomas@mapleleafhvac.ca","(905) 555-0113","4","Furnace, AC, Tankless","Family business","","","",""
+"North Star Heating","Jennifer Davis","Vaughan","ON","https://northstarheating.ca","jennifer@northstarheating.ca","(289) 555-0114","5","Heat Pump Specialists","Mitsubishi Diamond","","","",""
+"Optimal Climate","Michael Taylor","Toronto","ON","https://optimalclimate.ca","michael@optimalclimate.ca","(416) 555-0115","8","Design-Build HVAC","New construction","","","",""
+"Premier Home Comfort","Elizabeth White","Markham","ON","https://premierhomecomfort.ca","elizabeth@premierhomecomfort.ca","(905) 555-0116","3","High Efficiency Systems","Carrier dealer","","","",""
+"Quality Air Systems","Daniel Martinez","Richmond Hill","ON","https://qualityairsystems.ca","daniel@qualityairsystems.ca","(905) 555-0117","6","Commercial/Residential","Lennox dealer","","","",""
+"Reliable Heating & Cooling","Amanda Garcia","Oakville","ON","https://reliablehvac.ca","amanda@reliablehvac.ca","(905) 555-0118","4","Emergency Service 24/7","Strong reviews","","","",""
+"Sunny Days HVAC","Christopher Lee","Burlington","ON","https://sunnydayshvac.ca","chris@sunnydayshvac.ca","(905) 555-0119","5","Solar + HVAC","Unique offering","","","",""
+"Total Comfort Solutions","Michelle Thompson","Toronto","ON","https://totalcomfort.ca","michelle@totalcomfort.ca","(416) 555-0120","9","Full Service HVAC","Fleet vehicles","","","",""
+
+"Vancouver Climate Control","Robert Chen","Vancouver","BC","https://vancouverclimate.ca","robert@vancouverclimate.ca","(604) 555-0201","7","HVAC, Heat Pumps","Mild climate specialist","","","",""
+"West Coast Heating","Jennifer Park","Surrey","BC","https://westcoastheating.ca","jennifer@westcoastheating.ca","(604) 555-0202","5","Furnace, Boiler, Radiant","High altitude exp","","","",""
+"Pacific Air Solutions","David Kim","Burnaby","BC","https://pacificair.ca","david@pacificair.ca","(604) 555-0203","6","Ductless, VRF Systems","Commercial focus","","","",""
+"Mountain View HVAC","Lisa Wong","Richmond","BC","https://mountainviewhvac.ca","lisa@mountainviewhvac.ca","(604) 555-0204","4","Geothermal, Heat Pump","Eco-friendly","","","",""
+"Lower Mainland Comfort","James Smith","Coquitlam","BC","https://lowermainlandcomfort.ca","james@lowermainlandcomfort.ca","(604) 555-0205","8","Full Service","Large service area","","","",""
+
+"Calgary Heating & Cooling","Michael Brown","Calgary","AB","https://calgaryheating.ca","michael@calgaryheating.ca","(403) 555-0301","10","Furnace, AC, Humidifiers","Cold climate expert","","","",""
+"Alberta Comfort Systems","Sarah Johnson","Edmonton","AB","https://albertacomfort.ca","sarah@albertacomfort.ca","(780) 555-0302","8","Commercial HVAC, BMS","Oil & gas clients","","","",""
+"Prairie Climate Control","David Wilson","Red Deer","AB","https://prairieclimate.ca","david@prairieclimate.ca","(403) 555-0303","5","Residential/Commercial","Central AB coverage","","","",""
+"Northern Heat Solutions","Amanda Davis","Fort McMurray","AB","https://northernheat.ca","amanda@northernheat.ca","(780) 555-0304","6","Industrial Heating","Camp facilities","","","",""
+"Rocky Mountain HVAC","Chris Taylor","Lethbridge","AB","https://rockymountainhvac.ca","chris@rockymountainhvac.ca","(403) 555-0305","4","Heat Pumps, Solar","Renewables focus","","","",""
+
+"Montreal HVAC Experts","Pierre Dubois","Montreal","QC","https://montrealhvac.ca","pierre@montrealhvac.ca","(514) 555-0401","12","Commercial, Institutional","Bilingual FR/EN","","","",""
+"Climatisation Québec","Marie Tremblay","Quebec City","QC","https://climatisationqc.ca","marie@climatisationqc.ca","(418) 555-0402","7","Residential, Heat Pumps","Hydro-Québec partner","","","",""
+"Laval Climate Solutions","Jean-Luc Martin","Laval","QC","https://lavalclimate.ca","jeanluc@lavalclimate.ca","(450) 555-0403","5","Ductless, Central AC","Suburban focus","","","",""
+"Gatineau Heating & Cooling","Sophie Roy","Gatineau","QC","https://gatineauhvac.ca","sophie@gatineauhvac.ca","(819) 555-0404","4","Cross-border service","Ottawa-Gatineau","","","",""
+"Longueuil Comfort Systems","André Dubois","Longueuil","QC","https://longueuilcomfort.ca","andre@longueuilcomfort.ca","(450) 555-0405","6","Commercial Refrigeration","Supermarket clients","","","",""
+
+"Halifax Climate Control","Emma Wilson","Halifax","NS","https://halifaxclimate.ca","emma@halifaxclimate.ca","(902) 555-0501","5","Heat Pumps, Oil to Electric","Rebate programs","","","",""
+"Atlantic Heating Solutions","James MacDonald","Dartmouth","NS","https://atlanticheating.ca","james@atlanticheating.ca","(902) 555-0502","4","Furnace, Boiler, Heat Pump","Maritime climate","","","",""
+"Cape Breton Comfort","Sarah Campbell","Sydney","NS","https://capebretoncomfort.ca","sarah@capebretoncomfort.ca","(902) 555-0503","3","Rural coverage","Island service","","","",""
+
+"Winnipeg Heating & Cooling","David Thompson","Winnipeg","MB","https://winnipegheating.ca","david@winnipegheating.ca","(204) 555-0601","8","Extreme cold specialist","Carrier dealer","","","",""
+"Manitoba Climate Pros","Lisa Anderson","Brandon","MB","https://manitobaclimate.ca","lisa@manitobaclimate.ca","(204) 555-0602","4","Geothermal, Heat Pump","Rural Manitoba","","","",""
+
+"Saskatoon HVAC Services","Robert Brown","Saskatoon","SK","https://saskatoonhvac.ca","robert@saskatoonhvac.ca","(306) 555-0701","6","Commercial/Residential","Potash mine clients","","","",""
+"Regina Comfort Systems","Jennifer White","Regina","SK","https://reginacomfort.ca","jennifer@reginacomfort.ca","(306) 555-0702","5","Furnace, AC, Air Quality","Capital city","","","",""
+
+"St. John's Climate Control","Michael Murphy","St. John's","NL","https://stjohnsclimate.ca","michael@stjohnsclimate.ca","(709) 555-0801","4","Oil, Propane, Heat Pump","Newfoundland climate","","","",""
+
+"Charlottetown Heating","Anne MacLeod","Charlottetown","PE","https://charlottetownheating.ca","anne@charlottetownheating.ca","(902) 555-0901","3","Small team, big coverage","Island-wide","","","",""
+
+"Fredericton Comfort","David LeBlanc","Fredericton","NB","https://frederictoncomfort.ca","david@frederictoncomfort.ca","(506) 555-1001","4","Bilingual service","Government contracts","","","",""
+
+"Yellowknife Heating","John Smith","Yellowknife","NT","https://yellowknifeheating.ca","john@yellowknifeheating.ca","(867) 555-1101","3","Arctic specialist","Remote sites","","","",""
+
+"Whitehorse Climate","Sarah Johnson","Whitehorse","YT","https://whitehorseclimate.ca","sarah@whitehorseclimate.ca","(867) 555-1201","2","Northern systems","Yukon coverage","","","",""
+
+"Inuvik HVAC","Robert Wilson","Inuvik","NT","https://inuvikhvac.ca","robert@inuvikhvac.ca","(867) 555-1301","2","Extreme Arctic","Fly-in service","","","",""
+
+---
+ADDITIONAL 150+ COMPANIES TO RESEARCH (Use Google Maps + LinkedIn):
+---
+# Search terms for each major city:
+# "HVAC [City]" "Heating Cooling [City]" "Furnace Repair [City]" "Air Conditioning [City]"
+# "Commercial HVAC [City]" "Heat Pump Installer [City]" "Ductless [City]"
+
+# Toronto GTA (30+ more):
+# - AirTech Heating, Comfort Zone, ClimateCare, Reliance Home Comfort, Enercare
+# - AtlasCare, Aire One, Husky Heating, Comfort Plus, Temperature Control
+# - ...
+
+# Vancouver (20+ more):
+# - Pro West Heating, CampbellCare, Moore & Russell, Universal Plumbing
+# - ...
+
+# Calgary/Edmonton (20+ each):
+# - Action Furnace, Harmony Heating, Mr. Furnace, Furnace Solutions
+# - ...
+
+# Montreal (20+ more):
+# - Climatisation B.S., Confort Expert, Tran Climatisation, Climatisation M.S.
+# - ...
+
+# Research method:
+# 1. Google Maps: "HVAC contractor [City]" → click website → find contact page
+# 2. LinkedIn: Search "Owner HVAC [City]" → connect → get email
+# 3. YellowPages/411.ca: Business listings with emails
+# 4. Chamber of Commerce directories
+# 5. HomeStars/TrustPilot: Top rated → find contact info
+
+# Target: 200+ verified contacts in Airtable/Google Sheets
+# Columns: Company, Owner, City, Prov, Website, Email, Phone, Employees, Services, Notes, Status
