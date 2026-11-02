@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nexora AI - Chat 24/7 para empresas de HVAC e serviços domésticos no Canadá. Capture leads, responda FAQs e organize pedidos automaticamente.">
+    <title>Nexora AI - Chat 24/7 para HVAC e Serviços no Canadá</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo" aria-label="Nexora AI - Início">
+                <svg class="logo-icon" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                    <rect width="32" height="32" rx="8" fill="currentColor"/>
+                    <path d="M8 12h16M8 16h12M8 20h10" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                </svg>
+                <span class="logo-text">Nexora AI</span>
+            </a>
+            <nav class="nav" aria-label="Navegação principal">
+                <ul class="nav-list">
+                    <li><a href="#como-funciona" class="nav-link">Como funciona</a></li>
+                    <li><a href="#recursos" class="nav-link">Recursos</a></li>
+                    <li><a href="#planos" class="nav-link">Planos</a></li>
+                    <li><a href="#limites" class="nav-link">Disponibilidade</a></li>
+                </ul>
+            </nav>
+            <a href="#demo" class="btn btn-primary btn-demo">Solicitar demonstração</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-content">
+                        <span class="hero-badge">Feito para empresas de serviços no Canadá</span>
+                        <h1 id="hero-title" class="hero-title">
+                            Atenda o próximo cliente <span class="highlight">antes que ele ligue para outro</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            Chat 24/7 no seu site. Captura leads, responde dúvidas com suas regras e entrega pedidos organizados para sua equipe — enquanto você está em serviço.
+                        </p>
+                        <div class="hero-actions">
+                            <a href="#demo" class="btn btn-primary btn-lg">Solicitar demonstração</a>
+                            <a href="#planos" class="btn btn-outline btn-lg">Ver planos</a>
+                        </div>
+                        <p class="hero-note">Web chat disponível agora. Telefone, SMS e integrações CRM em desenvolvimento.</p>
+                    </div>
+                    <div class="hero-chat" aria-label="Prévia do chat da Nexora">
+                        <div class="chat-window">
+                            <div class="chat-header">
+                                <div class="chat-avatar" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="2" y="2" width="20" height="20" rx="4"/>
+                                        <path d="M8 12h8M8 16h5M8 8h10"/>
+                                    </svg>
+                                </div>
+                                <div class="chat-info">
+                                    <span class="chat-name">Nexora AI</span>
+                                    <span class="chat-status">Online • Responde em segundos</span>
+                                </div>
+                            </div>
+                            <div class="chat-messages">
+                                <div class="message message-bot">
+                                    <div class="message-bubble">
+                                        <p>Olá! Sou o assistente da <strong>Nexora</strong>. Em que posso ajudar hoje?</p>
+                                    </div>
+                                </div>
+                                <div class="message message-user">
+                                    <div class="message-bubble">
+                                        <p>Preciso de manutenção no ar condicionado. Vocês atendem em Toronto?</p>
+                                    </div>
+                                </div>
+                                <div class="message message-bot">
+                                    <div class="message-bubble">
+                                        <p>Sim, atendemos Toronto e região! Para organizar seu pedido, preciso de:</p>
+                                        <ul class="message-list">
+                                            <li>Endereço completo</li>
+                                            <li>Tipo de equipamento</li>
+                                            <li>Urgência (emergência / esta semana / flexível)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="message message-user">
+                                    <div class="message-bubble">
+                                        <p>Rua Yonge 123, Toronto. Ar central Carrier. Não é emergência, mas gostaria esta semana.</p>
+                                    </div>
+                                </div>
+                                <div class="message message-bot">
+                                    <div class="message-bubble message-summary">
+                                        <strong>✅ Pedido capturado</strong>
+                                        <p class="summary-details">
+                                            <span>📍</span> Rua Yonge 123, Toronto<br>
+                                            <span>❄️</span> Ar central Carrier<br>
+                                            <span>⏰</span> Esta semana (não urgente)
+                                        </p>
+                                        <p>Sua equipe receberá este resumo organizado. Entraremos em contato para agendar.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chat-input-area">
+                                <input type="text" placeholder="Digite uma mensagem..." class="chat-input" aria-label="Mensagem">
+                                <button class="chat-send" aria-label="Enviar">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="como-funciona" class="section how-it-works" aria-labelledby="how-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-tag">Como funciona</span>
+                    <h2 id="how-title" class="section-title">Três passos. Zero dor de cabeça.</h2>
+                </header>
+                <div class="steps-grid">
+                    <article class="step">
+                        <div class="step-number" aria-hidden="true">01</div>
+                        <h3 class="step-title">Receber</h3>
+                        <p class="step-description">
+                            O cliente explica a necessidade no chat do seu site, a qualquer hora. Sem formulários longos, sem espera.
+                        </p>
+                    </article>
+                    <article class="step">
+                        <div class="step-number" aria-hidden="true">02</div>
+                        <h3 class="step-title">Entender</h3>
+                        <p class="step-description">
+                            O assistente coleta serviço, endereço, urgência e detalhes técnicos — seguindo suas regras de operação.
+                        </p>
+                    </article>
+                    <article class="step">
+                        <div class="step-number" aria-hidden="true">03</div>
+                        <h3 class="step-title">Continuar</h3>
+                        <p class="step-description">
+                            Sua equipe recebe um resumo organizado: quem, onde, o quê e quando. Só agendar e resolver.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="recursos" class="section features" aria-labelledby="features-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-tag">Recursos</span>
+                    <h2 id="features-title" class="section-title">O que a Nexora faz por você</h2>
+                </header>
+                <div class="features-grid">
+                    <article class="feature">
+                        <div class="feature-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Dúvidas frequentes</h3>
+                        <p class="feature-description">
+                            Respostas aprovadas por você para as perguntas mais comuns — horários, áreas de atendimento, garantias, formas de pagamento.
+                        </p>
+                    </article>
+                    <article class="feature">
+                        <div class="feature-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Captura de pedidos</h3>
+                        <p class="feature-description">
+                            Coleta nome, telefone, endereço, tipo de equipamento e urgência. Entrega tudo formatado para sua equipe no WhatsApp, e-mail ou painel.
+                        </p>
+                    </article>
+                    <article class="feature">
+                        <div class="feature-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 12l2 2 4-4"/>
+                                <path d="M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 0 1-4.255-.949L3 20l1.395-3.72C3.514 15.142 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Regras da operação</h3>
+                        <p class="feature-description">
+                            Define o que o assistente pode responder, quando escalar para humano, quais serviços oferecer e como qualificar cada lead.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="planos" class="section pricing" aria-labelledby="pricing-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-tag">Planos</span>
+                    <h2 id="pricing-title" class="section-title">Preço justo. Sem surpresas.</h2>
+                    <p class="section-subtitle">Todos em CAD/mês. Setup único. Cancele quando quiser.</p>
+                </header>
+                <div class="pricing-grid">
+                    <article class="pricing-card">
+                        <header class="pricing-header">
+                            <h3 class="pricing-name">Starter</h3>
+                            <p class="pricing-desc">Para equipes pequenas começando</p>
+                        </header>
+                        <div class="pricing-price">
+                            <span class="price-amount">$299</span>
+                            <span class="price-period">/mês</span>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Até 500 conversas/mês</li>
+                            <li><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> 10 regras de operação</li>
+                            <li><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Entrega por e-mail</li>
+                            <li><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Suporte em dias úteis</li>
+                        </ul>
+                        <div class="pricing-setup">Setup único: <strong>$299</strong></div>
+                        <a href="#demo" class="btn btn-outline btn-block">Começar com Starter</a>
+                    </article>
+                    <article class="pricing-card pricing-card--popular">
+                        <div class="popular-badge">Mais popular</div>
+                        <header class="pricing-header">
+                            <h3 class="pricing-name">Professional</h3>
+                            <p class="pricing-desc">Para empresas em crescimento</p>
+                        </header>
+                        <div class="pricing-price">
+                            <span class="price-amount">$699</span>
+                            <span class="price-period">/mês</span>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Até 2.000 conversas/mês</li>
+                            <li><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Regras ilimitadas</li>
+                            <li><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Entrega WhatsApp + e-mail</li>
+                            <li><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Painel de métricas básico</li>
+                            <li><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Suporte prioritário</li>
+                        </ul>
+                        <div class="pricing-setup">Setup único: <strong>$599</strong></div>
+                        <a href="#demo" class="btn btn-primary btn-block">Começar com Professional</a>
+                    </article>
+                    <article class="pricing-card">
+                        <header class="pricing-header">
+                            <h3 class="pricing-name">Business</h3>
+                            <p class="pricing-desc">Para operações maiores</p>
+                        </header>
+                        <div class="pricing-price">
+                            <span class="price-amount">$1.499</span>
+                            <span class="price-period">/mês</span>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Até 5.000 conversas/mês</li>
+                            <li><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Regras + lógica condicional</li>
+                            <li><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Webhooks + API básica</li>
+                            <li><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Painel avançado + relatórios</li>
+                            <li><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Gerente de sucesso dedicado</li>
+                        </ul>
+                        <div class="pricing-setup">Setup único: <strong>$999</strong></div>
+                        <a href="#demo" class="btn btn-outline btn-block">Falar sobre Business</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="limites" class="section availability" aria-labelledby="availability-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-tag">Disponibilidade</span>
+                    <h2 id="availability-title" class="section-title">O que está pronto — e o que vem depois</h2>
+                </header>
+                <div class="availability-grid">
+                    <div class="availability-item available">
+                        <div class="availability-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+                        </div>
+                        <h3>Chat web 24/7</h3>
+                        <p>Disponível agora no seu site. Widget personalizável, responsivo, acessível.</p>
+                    </div>
+                    <div class="availability-item available">
+                        <div class="availability-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                        </div>
+                        <h3>Respostas por regras</h3>
+                        <p>FAQs, captura de pedidos, qualificação de leads — tudo configurável por você.</p>
+                    </div>
+                    <div class="availability-item available">
+                        <div class="availability-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+                        </div>
+                        <h3>Entrega organizada</h3>
+                        <p>Resumos por e-mail, WhatsApp ou painel. Sua equipe vê só o que importa.</p>
+                    </div>
+                    <div class="availability-item coming-soon">
+                        <div class="availability-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        </div>
+                        <h3>Telefone (Voice AI)</h3>
+                        <p>Atendimento por voz 24/7. Em desenvolvimento — previsão Q2 2026.</p>
+                    </div>
+                    <div class="availability-item coming-soon">
+                        <div class="availability-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </div>
+                        <h3>SMS / WhatsApp Business</h3>
+                        <p>Integração nativa para capturar leads fora do site. Em planejamento.</p>
+                    </div>
+                    <div class="availability-item coming-soon">
+                        <div class="availability-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+                        </div>
+                        <h3>CRM & Calendário</h3>
+                        <p>Sync automático com Jobber, Housecall Pro, Google Calendar. No roadmap.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="demo" class="section cta" aria-labelledby="cta-title">
+            <div class="container">
+                <div class="cta-card">
+                    <h2 id="cta-title" class="cta-title">Quer ver a Nexora no seu site?</h2>
+                    <p class="cta-description">
+                        Agende uma demonstração de 15 min. Mostramos o widget funcionando, configuramos suas primeiras regras e você testa ao vivo — sem compromisso.
+                    </p>
+                    <a href="mailto:demo@nexora.ai?subject=Demo%20Nexora%20AI&body=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20demonstra%C3%A7%C3%A3o%20da%20Nexora%20AI%20para%20minha%20empresa." class="btn btn-primary btn-lg">Solicitar demonstração gratuita</a>
+                    <p class="cta-note">Ou responda este e-mail: <a href="mailto:contato@nexora.ai">contato@nexora.ai</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo" aria-label="Nexora AI - Início">
+                        <svg class="logo-icon" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                            <rect width="32" height="32" rx="8" fill="currentColor"/>
+                            <path d="M8 12h16M8 16h12M8 20h10" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                        </svg>
+                        <span class="logo-text">Nexora AI</span>
+                    </a>
+                    <p class="footer-tagline">Chat 24/7 para HVAC e serviços domésticos no Canadá.</p>
+                </div>
+                <nav class="footer-nav" aria-label="Links do rodapé">
+                    <div class="footer-nav-group">
+                        <h4>Produto</h4>
+                        <ul>
+                            <li><a href="#como-funciona">Como funciona</a></li>
+                            <li><a href="#recursos">Recursos</a></li>
+                            <li><a href="#planos">Planos</a></li>
+                            <li><a href="#limites">Disponibilidade</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav-group">
+                        <h4>Empresa</h4>
+                        <ul>
+                            <li><a href="#demo">Solicitar demo</a></li>
+                            <li><a href="mailto:contato@nexora.ai">Contato</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">© 2026 Nexora AI. Feito para empresas de serviços no Canadá.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
