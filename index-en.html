@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="apple-touch-icon" href="apple-touch-icon.svg">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -28,6 +30,10 @@
                     <li><a href="#availability" class="nav-link">Availability</a></li>
                 </ul>
             </nav>
+            <div class="lang-switcher" role="group" aria-label="Language">
+                <button class="lang-btn" data-lang="pt" aria-pressed="false">PT</button>
+                <button class="lang-btn is-active" data-lang="en" aria-pressed="true">EN</button>
+            </div>
             <a href="#demo" class="btn btn-primary btn-demo">Request demo</a>
         </div>
     </header>
@@ -317,6 +323,94 @@
             </div>
         </section>
 
+        <section id="faq" class="section faq" aria-labelledby="faq-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-tag">FAQ</span>
+                    <h2 id="faq-title" class="section-title">Everything you need to know</h2>
+                </header>
+                <div class="faq-grid">
+                    <details class="faq-item">
+                        <summary class="faq-question">How does Nexora integrate with my website?</summary>
+                        <div class="faq-answer">
+                            <p>Just add one line of code to your site's <code><head></code>. The widget appears in the bottom right. Works on WordPress, Wix, Shopify, plain HTML — any platform.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-question">Can I customize the assistant's responses?</summary>
+                        <div class="faq-answer">
+                            <p>Yes. You define the rules: which questions to answer, what info to collect, when to escalate to a human. The dashboard lets you edit everything without code.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-question">What happens if the assistant doesn't know the answer?</summary>
+                        <div class="faq-answer">
+                            <p>It flags the conversation as "needs human" and notifies your team instantly (WhatsApp/email). The client knows someone will follow up.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-question">Do I need technical skills to set it up?</summary>
+                        <div class="faq-answer">
+                            <p>No. We do the initial config together on the demo call (15 min). After that, you edit rules in a visual Notion-like panel. Support included in all plans.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-question">How do leads reach my team?</summary>
+                        <div class="faq-answer">
+                            <p>Formatted summary via WhatsApp, email, or web dashboard. Includes: name, phone, address, equipment, urgency, conversation history. Your team just schedules.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-question">Does it work in French/English?</summary>
+                        <div class="faq-answer">
+                            <p>The widget detects browser language. Responses can be configured in multiple languages. Dashboard available in PT/EN.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-question">Is there a long-term contract?</summary>
+                        <div class="faq-answer">
+                            <p>No. Month-to-month, cancel anytime. Setup is one-time (initial config). If you cancel and come back, no setup fee again.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-question">Do you serve outside Canada?</summary>
+                        <div class="faq-answer">
+                            <p>Currently focused on the Canadian market (HVAC/home services). If you operate elsewhere, let's talk — we're expanding.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section class="section trust" aria-labelledby="trust-title">
+            <div class="container">
+                <div class="trust-content">
+                    <h2 id="trust-title" class="trust-title">Built for those who can't stop</h2>
+                    <p class="trust-subtitle">Service companies using 24/7 chat see more qualified leads and fewer missed calls.</p>
+                    <div class="trust-stats">
+                        <div class="trust-stat">
+                            <span class="trust-number">3x</span>
+                            <span class="trust-label">More leads captured</span>
+                        </div>
+                        <div class="trust-stat">
+                            <span class="trust-number">80%</span>
+                            <span class="trust-label">Fewer missed calls</span>
+                        </div>
+                        <div class="trust-stat">
+                            <span class="trust-number">15 min</span>
+                            <span class="trust-label">To set up</span>
+                        </div>
+                    </div>
+                    <div class="trust-badges">
+                        <span class="trust-badge">✓ No code required</span>
+                        <span class="trust-badge">✓ LGPD/PIPEDA compliant</span>
+                        <span class="trust-badge">✓ Hosted in Canada</span>
+                        <span class="trust-badge">✓ English & Portuguese support</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section id="demo" class="section cta" aria-labelledby="cta-title">
             <div class="container">
                 <div class="cta-card">
@@ -366,7 +460,7 @@
             <div class="footer-bottom">
                 <p class="copyright">© 2026 Nexora AI. Built for service companies in Canada.</p>
             </div>
-        </div
+        </div>
     </footer>
 
     <script src="script.js"></script>

@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="apple-touch-icon" href="apple-touch-icon.svg">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -28,6 +30,10 @@
                     <li><a href="#limites" class="nav-link">Disponibilidade</a></li>
                 </ul>
             </nav>
+            <div class="lang-switcher" role="group" aria-label="Idioma">
+                <button class="lang-btn is-active" data-lang="pt" aria-pressed="true">PT</button>
+                <button class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+            </div>
             <a href="#demo" class="btn btn-primary btn-demo">Solicitar demonstração</a>
         </div>
     </header>
@@ -312,6 +318,94 @@
                         </div>
                         <h3>CRM & Calendário</h3>
                         <p>Sync automático com Jobber, Housecall Pro, Google Calendar. No roadmap.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="section faq" aria-labelledby="faq-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-tag">Perguntas frequentes</span>
+                    <h2 id="faq-title" class="section-title">Tudo o que você precisa saber</h2>
+                </header>
+                <div class="faq-grid">
+                    <details class="faq-item">
+                        <summary class="faq-question">Como a Nexora se integra ao meu site?</summary>
+                        <div class="faq-answer">
+                            <p>Basta adicionar uma linha de código no <code><head></code> do seu site. O widget aparece no canto inferior direito. Funciona em WordPress, Wix, Shopify, HTML puro — qualquer plataforma.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-question">Posso personalizar as respostas do assistente?</summary>
+                        <div class="faq-answer">
+                            <p>Sim. Você define as regras: quais perguntas responder, quais informações coletar, quando escalar para humano. O painel permite editar tudo sem código.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-question">O que acontece se o assistente não souber responder?</summary>
+                        <div class="faq-answer">
+                            <p>Ele flagia a conversa como "precisa de humano" e notifica sua equipe na hora (WhatsApp/e-mail). O cliente sabe que alguém vai retornar.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-question">Preciso de conhecimento técnico para configurar?</summary>
+                        <div class="faq-answer">
+                            <p>Não. A configuração inicial fazemos juntos na demo (15 min). Depois, você edita regras num painel visual tipo Notion. Suporte incluído em todos os planos.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-question">Como os leads chegam na minha equipe?</summary>
+                        <div class="faq-answer">
+                            <p>Resumo formatado via WhatsApp, e-mail ou painel web. Inclui: nome, telefone, endereço, equipamento, urgência, histórico da conversa. Sua equipe só agenda.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-question">Funciona em francês/inglês?</summary>
+                        <div class="faq-answer">
+                            <p>O widget detecta o idioma do navegador. Respostas podem ser configuradas em múltiplos idiomas. O painel está em PT/EN.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-question">Há contrato de fidelidade?</summary>
+                        <div class="faq-answer">
+                            <p>Não. Mês a mês, cancele quando quiser. O setup é pago uma vez (configuração inicial). Se cancelar e voltar depois, não cobramos setup novamente.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-question">Vocês atendem fora do Canadá?</summary>
+                        <div class="faq-answer">
+                            <p>Hoje, focado no mercado canadense (HVAC/serviços domésticos). Se você atende em outro país, fale conosco — estamos expandindo.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section class="section trust" aria-labelledby="trust-title">
+            <div class="container">
+                <div class="trust-content">
+                    <h2 id="trust-title" class="trust-title">Feito para quem não pode parar</h2>
+                    <p class="trust-subtitle">Empresas de serviço que usam chat 24/7 veem mais leads qualificados e menos ligações perdidas.</p>
+                    <div class="trust-stats">
+                        <div class="trust-stat">
+                            <span class="trust-number">3x</span>
+                            <span class="trust-label">Mais leads capturados</span>
+                        </div>
+                        <div class="trust-stat">
+                            <span class="trust-number">80%</span>
+                            <span class="trust-label">Menos ligações perdidas</span>
+                        </div>
+                        <div class="trust-stat">
+                            <span class="trust-number">15 min</span>
+                            <span class="trust-label">Para configurar</span>
+                        </div>
+                    </div>
+                    <div class="trust-badges">
+                        <span class="trust-badge">✓ Sem código necessário</span>
+                        <span class="trust-badge">✓ LGPD/PIPEDA compliant</span>
+                        <span class="trust-badge">✓ Hospedado no Canadá</span>
+                        <span class="trust-badge">✓ Suporte em português</span>
                     </div>
                 </div>
             </div>

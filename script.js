@@ -191,6 +191,14 @@
             ? `<li><a href="#demo" class="mobile-nav-link mobile-nav-cta">${isEnglish ? 'Request demo' : 'Solicitar demonstração'}</a></li>`
             : '';
 
+        // Language switcher for mobile nav
+        const mobileLangSwitcher = `
+            <li class="mobile-nav-lang">
+                <button class="mobile-lang-btn ${isEnglish ? '' : 'is-active'}" data-lang="pt" aria-pressed="${!isEnglish}">PT</button>
+                <button class="mobile-lang-btn ${isEnglish ? 'is-active' : ''}" data-lang="en" aria-pressed="${isEnglish}">EN</button>
+            </li>
+        `;
+
         // Create mobile nav panel
         const mobileNav = document.createElement('nav');
         mobileNav.id = 'mobile-nav';
@@ -201,6 +209,7 @@
             <ul class="mobile-nav-list">
                 ${mobileLinksHtml}
                 ${extraLinks}
+                ${mobileLangSwitcher}
             </ul>
         `;
 
@@ -213,6 +222,18 @@
         overlay.className = 'mobile-nav-overlay';
         overlay.setAttribute('aria-hidden', 'true');
         document.body.appendChild(overlay);
+
+        // Mobile language switcher event listeners
+        $$('.mobile-lang-btn', mobileNav).forEach(btn => {
+            btn.addEventListener('click', () => {
+                const lang = btn.getAttribute('data-lang');
+                if (lang === 'en' && !isEnglish) {
+                    window.location.href = 'index-en.html';
+                } else if (lang === 'pt' && isEnglish) {
+                    window.location.href = 'index.html';
+                }
+            });
+        });
 
         let isOpen = false;
 
@@ -312,6 +333,38 @@
     }
 
     // ============================================================
+    // Language Switcher
+    // ============================================================
+    function initLanguageSwitcher() {
+        const langButtons = $$('.lang-btn');
+        if (langButtons.length === 0) return;
+
+        const isEnglish = document.documentElement.lang === 'en';
+        const targetUrl = isEnglish ? 'index.html' : 'index-en.html';
+
+        langButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const lang = btn.getAttribute('data-lang');
+                if (lang === 'en' && !isEnglish) {
+                    window.location.href = 'index-en.html';
+                } else if (lang === 'pt' && isEnglish) {
+                    window.location.href = 'index.html';
+                }
+            });
+        });
+
+        // Keyboard support for switcher
+        langButtons.forEach(btn => {
+            btn.addEventListener('keydown', e => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    btn.click();
+                }
+            });
+        });
+    }
+
+    // ============================================================
     // Demo CTA - Mailto with Prefilled Data
     // ============================================================
     function initDemoCTA() {
@@ -358,6 +411,7 @@
         initSmoothScroll();
         initScrollAnimations();
         initChatDemo();
+        initLanguageSwitcher();
         initMobileNav();
         initHeaderScroll();
         initDemoCTA();
