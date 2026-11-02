@@ -1326,6 +1326,79 @@ p {
     border-radius: var(--radius-full);
 }
 
+/* --- Support / Donation --- */
+.support {
+    padding: var(--space-16) 0;
+    background: var(--color-bg);
+}
+
+@media (min-width: 768px) {
+    .support { padding: var(--space-20) 0; }
+}
+
+.support-card {
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+    padding: var(--space-12) var(--space-8);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+}
+
+.support-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto var(--space-6);
+    background: var(--color-primary-light);
+    color: var(--color-primary);
+    border-radius: var(--radius-full);
+}
+
+.support-icon svg {
+    width: 32px;
+    height: 32px;
+}
+
+.support-title {
+    font-size: var(--font-size-2xl);
+    margin-bottom: var(--space-4);
+}
+
+@media (min-width: 768px) {
+    .support-title { font-size: var(--font-size-3xl); }
+}
+
+.support-text {
+    font-size: var(--font-size-base);
+    margin-bottom: var(--space-4);
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.support-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-4);
+    margin: var(--space-8) 0;
+}
+
+.support-actions .btn svg {
+    width: 20px;
+    height: 20px;
+}
+
+.support-note {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+    margin: 0;
+}
+
 /* --- CTA --- */
 .cta {
     padding: var(--space-16) 0;
