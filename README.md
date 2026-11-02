@@ -61,7 +61,3 @@ Edit `index.html` to update:
 ## 📄 License
 
 MIT — Use freely for your own projects.
-
----
-
-**Built to replace Polsia AI hosting — no tokens, no subscriptions, full control.**
